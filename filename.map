@@ -1,0 +1,48 @@
+# syntax definition mappings
+
+# SSV: Ant Glob filename description
+# If there is no description, then the syntax will not show up as a Snippet markup option
+
+"**/*.java" java.def "Java"
+"**/*.scala" scala.def "Scala"
+"**/*.js" javascript.def "JavaScript/ECMAScript"
+"**/*.json" javascript.def
+"**/*.as" javascript.def "ActionScript"
+"**/*.htm" html.def
+"**/*.html" html.def "HTML"
+"**/*.jsp" html.def "Java Servlet Page"
+"**/*.jspf" html.def
+"**/*.gsp" html.def "Groovy Servlet Page"
+"**/*.tag" html.def
+"**/*.tld" html.def
+"**/*.php" php.def "PHP"
+"**/*.asp" html.def "Active Server Page"
+"**/*.cfc" html.def
+"**/*.cfm" html.def "ColdFusion Markup File"
+"**/*.cfml" html.def
+"**/*.ftl" html.def
+"**/*.css" css.def "CSS"
+"**/*.py" python.def "Python"
+"**/*.pl" perl.def "Perl"
+"**/*.pod" pod.def
+"**/*.pm" perl.def
+"**/*.c" c.def "C"
+"**/*.h" c.def
+"**/*.cpp" cpp.def "C++"
+"**/*.hpp" cpp.def
+"**/*.cs" csharp.def "C#"
+"**/*.sql" sql.def "SQL"
+"**/*.tql" sql.def
+"**/*.rb" ruby.def "Ruby"
+"**/*.soy" soy.def "Closure Template"
+"**/*.groovy" groovy.def "Groovy"
+"**/*.gradle" groovy.def "Gradle"
+"**/*.m" objc.def "Objective C"
+"**/*.vb" vbnet.def "Visual Basic .NET"
+"**/*.vm" vm.def "Velocity"
+"**/*.sh" cshell.def "Shell Script"
+
+# for the moment, map xml and xsd to html:
+"**/*.xml" html.def "XML"
+"**/*.xsd" html.def
+"**/*.xslt" html.def
