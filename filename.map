@@ -3,6 +3,7 @@
 # SSV: Ant Glob filename description
 # If there is no description, then the syntax will not show up as a Snippet markup option
 
+"**/*.bsl" bsl.def "1C BSL"
 "**/*.java" java.def "Java"
 "**/*.scala" scala.def "Scala"
 "**/*.js" javascript.def "JavaScript/ECMAScript"
@@ -44,5 +45,6 @@
 
 # for the moment, map xml and xsd to html:
 "**/*.xml" html.def "XML"
+"**/*.mdo" html.def "1C MDO"
 "**/*.xsd" html.def
 "**/*.xslt" html.def
