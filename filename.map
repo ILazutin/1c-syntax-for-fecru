@@ -3,7 +3,6 @@
 # SSV: Ant Glob filename description
 # If there is no description, then the syntax will not show up as a Snippet markup option
 
-"**/*.bsl" bsl.def "1C BSL"
 "**/*.java" java.def "Java"
 "**/*.scala" scala.def "Scala"
 "**/*.js" javascript.def "JavaScript/ECMAScript"
@@ -45,6 +44,27 @@
 
 # for the moment, map xml and xsd to html:
 "**/*.xml" html.def "XML"
-"**/*.mdo" html.def "1C MDO"
 "**/*.xsd" html.def
 "**/*.xslt" html.def
+
+# 1C-files
+"**/*.bsl" bsl.def "1C BSL"
+"**/*.mdo" html.def "1C MetaDataObject"
+"**/*.xdto" html.def
+"**/*.wsdl" html.def
+"**/*.form" html.def
+"**/*.scheme" html.def "1C GraphicalScheme"
+"**/*.schedule" html.def
+"**/*.rights" html.def
+"**/*.mxlx" html.def "1C SpreadsheetDocument"
+"**/*.htmldoc" html.def "1C HtmlDocument"
+"**/*.geos" html.def "1C GraphicalScheme"
+"**/*.dcs" html.def "1C DataCompositionSchema"
+"**/*.dcssca" html.def "1C ConditionalAppearance"
+"**/*.dcss" html.def "1C DataCompositionSchemaSettings"
+"**/*.dcsat" html.def "1C DataCompositionAppearanceTemplate"
+"**/*.chart" html.def "1C ChartSettings"
+"**/*.hpwa" html.def "1C HomePageWorkArea"
+"**/*.cmi" html.def "1C CommandInterface"
+"**/*.cai" html.def "1C ClientApplicationInterface"
+"**/*.project" html.def "1C-EDT Project"
