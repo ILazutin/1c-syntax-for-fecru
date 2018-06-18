@@ -150,7 +150,7 @@ WSСсылки|WSReferences|БиблиотекаКартинок|PictureLib|Би
     }
 
 # preprocessor line
-/(^|\xEF\xBB\xBF)(#|&).*$/m : {
+/(^|\xEF\xBB\xBF|(?<!\$))(#|&).*$/m : {
        region {
          type=preprocessor;
        }
